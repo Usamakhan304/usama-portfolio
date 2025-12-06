@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usama Khan - Web Designer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" onclick="toggleTheme()">
+        🌙
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <h2 class="logo">Usama Khan</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Web Designer <br>& Developer</h1>
+            <p>I create modern and responsive websites.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+
+        <div class="hero-img">
+            <img src="profile.png" alt="Usama Khan">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a creative web designer with experience in building modern, responsive, and functional websites.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>WordPress</span>
+            <span>Elementor</span>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card fade-in">
+                <h3>Magistv APKS</h3>
+                <p>Responsive website with clean UI.</p>
+                <a href="https://magistvapks.app/" target="_blank" class="btn">View Website</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3>PVA Planet</h3>
+                <p>Modern e-commerce style design.</p>
+                <a href="https://pvaplanet.com/" target="_blank" class="btn">View Website</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3>Yacinetv APKS</h3>
+                <p>Fast and responsive website.</p>
+                <a href="https://yacinetvapks.app/" target="_blank" class="btn">View Website</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3>PVA Port</h3>
+                <p>Clean and professional business website.</p>
+                <a href="https://pvaport.com/" target="_blank" class="btn">View Website</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3>Bestest Industries</h3>
+                <p>Corporate style responsive design.</p>
+                <a href="https://bestestindustries.com/" target="_blank" class="btn">View Website</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+
+        <p class="mail">Email: 
+            <a href="mailto:usamajawaid775@gmail.com">
+                usamajawaid775@gmail.com
+            </a>
+        </p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Message"></textarea>
+            <button class="btn">Send Message</button>
+        </form>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
